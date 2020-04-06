@@ -5,7 +5,7 @@
 		$fullname = $_POST['fullname'];
 		$course = $_POST['course'];
 		$year = $_POST['year'];
-		$status = $_POST['vote_status'];
+		$status = 'Voted';
 		// update the data
 		$sql = mysqli_query($conn, "INSERT INTO students (id_number, name, course, year, vote_status) VALUES ('$id_number', '$fullname', '$course', '$year', '$status')") or die(mysqli_error($sql));
 		// proceed if true

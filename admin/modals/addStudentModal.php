@@ -45,15 +45,6 @@
                <option value="4th year">4th year</option>
              </select>
            </div>
-             <div class="form-group">
-             <label>Status:</label>
-             <select class="custom-select form-control" name="vote_status">
-               <option selected>Select status</option>
-               <option value="">---------------</option>
-               <option value="Active">Active</option>
-               <option value="Voted">Voted</option>
-             </select>
-           </div>
        </div>
       <div class="modal-footer">
         <input type="submit" name="submit" value="Save" class="btn btn-primary">

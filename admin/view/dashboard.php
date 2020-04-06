@@ -11,6 +11,7 @@
 <head>
   <?php include ('../layouts/css.php'); ?>
   <link rel="stylesheet" type="text/css" href="../assets/css/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/social-media.css">
   <style type="text/css">
     footer {
       font-size: 0.9em;
@@ -36,10 +37,18 @@
           <a href="bssw.php" class="dropdown-item">BSSW / BSTM</a>
           <a href="crim.php" class="dropdown-item">BSCRIM</a>
         </div>
+        <div>
+          <a href="#" class="list-group-item list-group-item-action" data-toggle="dropdown" ><i class="fa fa-cog"></i>Settings</a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a href="#" class="dropdown-item">Enable/Disable Voting</a>
+            <a href="#" class="dropdown-item">Backup/Restore</a>
+            <a href="#about" data-toggle="modal" class="dropdown-item">About</a>
+          </div>
+        </div>
       </div>
-      <footer class="fixed-bottom text-right">
-      <span class="text-success">&copy;</span>Copyright 2020. Mark Flores.
-      </footer>
+      <?php  
+        include('../layouts/about-modal.php');
+      ?>
     </div>
     <!-- /#sidebar-wrapper -->
 

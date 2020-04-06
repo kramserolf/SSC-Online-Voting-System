@@ -35,7 +35,7 @@
 
 	#sidebar-wrapper {
 	  min-height: 100vh;
-	  margin-left: -15rem;
+	  margin-left: -14rem;
 	  -webkit-transition: margin .25s ease-out;
 	  -moz-transition: margin .25s ease-out;
 	  -o-transition: margin .25s ease-out;
@@ -47,7 +47,7 @@
 	}
 
 	#sidebar-wrapper .list-group {
-	  width: 13.5rem;
+	  width: 14rem;
 	  /*padding-top: 10px;*/
 	}
 	#sidebar-wrapper .list-group-item {
@@ -75,34 +75,23 @@
 	  }
 
 	  #wrapper.toggled #sidebar-wrapper {
-	    margin-left: -13.5rem;
+	    margin-left: -14.5rem;
 	  }
 	}
-	@media (min-width: 448px) {
+	@media only screen and (max-width: 768px) {
 	  #sidebar-wrapper {
-	    margin-left: 0;
+	    margin-left: -14.5rem;
 	  }
 
 	  #page-content-wrapper {
 	    min-width: 0;
+	    width: 100%;
+	  }
 
-	  }
 	  #wrapper.toggled #sidebar-wrapper {
-	    margin-left: -13.5rem;
-	  }
-	}
-	@media (min-width: 320px) {
-	  #sidebar-wrapper {
 	    margin-left: 0;
 	  }
-
-	  #page-content-wrapper {
-	    min-width: 0;
-
-	  }
-	  #wrapper.toggled #sidebar-wrapper {
-	    margin-left: -13.5rem;
-	  }
 	}
+
 </style>
  <title>Web-Based SSC Voting</title>
