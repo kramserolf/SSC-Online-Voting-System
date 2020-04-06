@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedcolumns/3.3.0/css/fixedColumns.dataTables.min.css">
 
 <!-- sidebar css -->
-<link rel="stylesheet" type="text/css" href="../assets/css/simple-sidebar.css">
+<!-- <link rel="stylesheet" type="text/css" href="../assets/css/simple-sidebar.css"> -->
 <style type="text/css">
 	#sidebar-wrapper .list-group i{
     font-size: 1.3em;
@@ -28,6 +28,68 @@
 	.list-group-item {
 		background-color: seagreen;
 		color: white;
+	}
+	body {
+	  overflow-x: hidden;
+	}
+
+	#sidebar-wrapper {
+	  min-height: 100vh;
+	  margin-left: -15rem;
+	  -webkit-transition: margin .25s ease-out;
+	  -moz-transition: margin .25s ease-out;
+	  -o-transition: margin .25s ease-out;
+	  transition: margin .25s ease-out;
+	}
+	#sidebar-wrapper .sidebar-heading {
+	  padding: 0.875rem 1.25rem;
+	  font-size: 1.2rem;
+	}
+
+	#sidebar-wrapper .list-group {
+	  width: 13.5rem;
+	  /*padding-top: 10px;*/
+	}
+	#sidebar-wrapper .list-group-item {
+		padding: 16px;
+	}
+
+	#page-content-wrapper {
+	  min-width: 100vw;
+	}
+	#wrapper.toggled #sidebar-wrapper {
+	  margin-left: 0;
+	}
+	.sidebar-heading {
+		color: white;
+	}
+
+	@media (min-width: 768px) {
+	  #sidebar-wrapper {
+	    margin-left: 0;
+	  }
+
+	  #page-content-wrapper {
+	    min-width: 0;
+	    width: 100%;
+	  }
+
+	  #wrapper.toggled #sidebar-wrapper {
+	    margin-left: -13.5rem;
+	  }
+	}
+	@media (min-width: 448px) {
+	  #sidebar-wrapper {
+	    margin-left: 0;
+	  }
+
+	  #page-content-wrapper {
+	    min-width: 0;
+
+	  }
+	  #wrapper.toggled #sidebar-wrapper {
+	    margin-left: -13.5rem;
+	  }
 	}
 </style>
  <title>Web-Based SSC Voting</title>

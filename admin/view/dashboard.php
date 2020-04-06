@@ -9,9 +9,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php  
-    include '../layouts/css.php';
-  ?>
+  <?php include ('../layouts/css.php'); ?>
   <link rel="stylesheet" type="text/css" href="../assets/css/dashboard.css">
   <style type="text/css">
     footer {
@@ -26,7 +24,7 @@
 
     <!-- Sidebar -->
     <div class="border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading pb-md-5">Online Voting</div>
+      <div class="sidebar-heading border-bottom pb-md-5 pl-4 mt-2">SSC Online Voting</div>
       <div class="list-group list-group-flush">
         <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-home"></i>Dashboard</a>
         <a href="candidates.php" class="list-group-item list-group-item-action"><i class="fa fa-github-square"></i>Candidates</a>
@@ -39,7 +37,7 @@
           <a href="crim.php" class="dropdown-item">BSCRIM</a>
         </div>
       </div>
-      <footer class="fixed-bottom">
+      <footer class="fixed-bottom text-right">
       <span class="text-success">&copy;</span>Copyright 2020. Mark Flores.
       </footer>
     </div>
@@ -56,6 +54,7 @@
           <h1 class="h3 mb-0 mt-2">
             Dashboard
           </h1>
+          <button class="btn btn-info btn-sm mb-0 mt-3"><i class="fa fa-print mr-1"></i>Print</button>
         </div>
         <!-- dashboard content -->
         <div class="row">

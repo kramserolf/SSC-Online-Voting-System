@@ -13,7 +13,7 @@
 
     <!-- Sidebar -->
     <div class="border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading border-bottom pb-md-5">Online Voting</div>
+      <div class="sidebar-heading border-bottom pb-md-5 pl-4 mt-2">SSC Online Voting</div>
       <div class="list-group list-group-flush">
         <a href="dashboard.php" class="list-group-item list-group-item-action"><i class="fa fa-home"></i>Dashboard</a>
         <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-github-square"></i>Candidates</a>

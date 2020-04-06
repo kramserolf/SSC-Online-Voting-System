@@ -13,7 +13,7 @@
     <!-- Sidebar -->
     <div class="border-right" id="sidebar-wrapper">
       <!-- title -->
-      <div class="sidebar-heading border-bottom pb-md-5">Online Voting</div>
+      <div class="sidebar-heading border-bottom pb-md-5 pl-4 mt-2">SSC Online Voting</div>
       <!-- sidebar links -->
       <div class="list-group list-group-flush">
         <!-- dashboard -->
