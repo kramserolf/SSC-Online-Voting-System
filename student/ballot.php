@@ -1,4 +1,5 @@
 <?php  
+	ob_start();
 	include '../dbcon.php';
 	include 'student-login.php';
 	if (!isset($_SESSION['id_num'])) {

@@ -91,5 +91,18 @@
 	    margin-left: -13.5rem;
 	  }
 	}
+	@media (min-width: 320px) {
+	  #sidebar-wrapper {
+	    margin-left: 0;
+	  }
+
+	  #page-content-wrapper {
+	    min-width: 0;
+
+	  }
+	  #wrapper.toggled #sidebar-wrapper {
+	    margin-left: -13.5rem;
+	  }
+	}
 </style>
  <title>Web-Based SSC Voting</title>

@@ -2,7 +2,7 @@
 	// declare if the session is started or not
 	if (session_status() == PHP_SESSION_NONE) {
 	session_start(); 
-	}
+
 
 	if (isset($_POST['submit'])) {
 		// define the fields
@@ -28,4 +28,5 @@
 				';	
 			}
 	}
+}
 ?>

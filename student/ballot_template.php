@@ -136,7 +136,7 @@
 			    		<strong>Department: </strong>'.$row['course'].' - '.$row['year'].'<br>
 			    		<strong>Partylist: </strong>'.$row['party'].'<br>
 			    		<div id="chkbox">
-		    			<strong>Vote: </strong><input type="checkbox" value="'.$row['id'].'"name = "bus" class="bus">
+		    			<strong>Vote: </strong><input type="checkbox" value="'.$row['id'].'"name = "pro" class="pro">
 		    			</div>
 			    ';
 			}
