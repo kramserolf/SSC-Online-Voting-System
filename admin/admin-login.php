@@ -3,7 +3,6 @@
 	if (session_status() == PHP_SESSION_NONE) {
 	session_start(); 
 
-
 	if (isset($_POST['submit'])) {
 		// define the fields
 		$username = $_POST['username'];

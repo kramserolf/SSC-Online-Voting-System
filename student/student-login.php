@@ -13,7 +13,6 @@
 		// validate
 		if ($numrow > 0) {
 			while ($row = mysqli_fetch_array($query)) {
-			    $_SESSION['id_num'] = $row['id'];
 			    $_SESSION['id_number'] = $row['id_number'];
 			} 
 				header('location: student/ballot.php');

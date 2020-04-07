@@ -2,7 +2,7 @@
 	ob_start();
 	include '../dbcon.php';
 	include 'student-login.php';
-	if (!isset($_SESSION['id_num'])) {
+	if (!isset($_SESSION['id_number'])) {
 		header('location: ../');
 	}
 ?>

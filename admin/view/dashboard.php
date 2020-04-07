@@ -11,12 +11,6 @@
 <head>
   <?php include ('../layouts/css.php'); ?>
   <link rel="stylesheet" type="text/css" href="../assets/css/dashboard.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/social-media.css">
-  <style type="text/css">
-    footer {
-      font-size: 0.9em;
-    }
-  </style>
 </head>
 
 <body>

@@ -3,26 +3,13 @@
 <html>
 <head>
 	<!-- bootstrap css -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<style type="text/css">
-		@media only screen and (max-width: 768px){
-			.card-header {
-				font-size: 0.94em;
-				margin-bottom: 10px;
-			}
-		}
-		@media only screen and (min-width: 768px) {
-			.col {
-				width: 33.33%;
-				float: left;
-			}
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="admin/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="admin/assets/css/canvassing.css">
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="d-flex text-black pb-md-2 text-center">
-	 	<div class="card-header w-100 text-white" style="background-color: #17a2b8;">Canvassing</div>
+	 	<div class="card-header w-100 text-white mb-3" style="background-color: #17a2b8;" >Canvassing</div>
 		</div>
 		<!-- <div class="row"> -->
 			<div class="col">
@@ -281,8 +268,9 @@
 			</div>
 			</div>
 	</div>
+<!-- jquery -->
+<script type="text/javascript" src="admin/assets/js/jquery.min.js"></script>
 <!-- bootstrap 4 -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script type="text/javascript" src="admin/assets/js/bootstrap.min.js"></script>
 </body>
 </html>

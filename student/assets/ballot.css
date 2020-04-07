@@ -23,3 +23,9 @@ input[type=checkbox]{
 #chkbox {
 	margin-bottom: 18px;
 }
+
+@media only screen and (max-width: 768px){
+	img {
+		width: 38%;
+	}
+}

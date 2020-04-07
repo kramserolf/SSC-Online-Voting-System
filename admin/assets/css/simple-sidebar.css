@@ -3,45 +3,97 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
 /* */
-/*body {
-  overflow-x: hidden;
-}
+  body {
+    overflow-x: hidden;
+  }
 
-#sidebar-wrapper {
-  min-height: 100vh;
-  margin-left: -15rem;
-  -webkit-transition: margin .25s ease-out;
-  -moz-transition: margin .25s ease-out;
-  -o-transition: margin .25s ease-out;
-  transition: margin .25s ease-out;
-}
-#sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
-}
-
-#sidebar-wrapper .list-group {
-  width: 15rem;
-}
-
-#page-content-wrapper {
-  min-width: 100vw;
-}
-#wrapper.toggled #sidebar-wrapper {
-  margin-left: 0;
-}
-
-@media (min-width: 768px) {
   #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -14rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+  }
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+
+  #sidebar-wrapper .list-group {
+    width: 14rem;
+    /*padding-top: 10px;*/
+  }
+  #sidebar-wrapper .list-group-item {
+    padding: 16px;
+  }
+  #sidebar-wrapper .list-group i{
+    font-size: 1.3em;
+    margin-right: 10px;
+    margin-left: 3px;
+  }
+  #sidebar-wrapper {
+  background-color: seagreen;
+  }
+  .list-group-item {
+    background-color: seagreen;
+    color: white;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  #wrapper.toggled #sidebar-wrapper {
     margin-left: 0;
   }
-
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
+  .sidebar-heading {
+    color: white;
   }
 
-  #wrapper.toggled #sidebar-wrapper {
-    margin-left: -15rem;
+  .social-media img {
+  width: 10%;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+
+#version {
+  font-size: 0.93em;
+}
+
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -14.5rem;
+    }
   }
-}*/
+  @media only screen and (max-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: -14.5rem;
+    }
+
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: 0;
+    }
+    .d-flex h4 {
+      font-size: 1.37em;
+    }
+    .d-flex a {
+      font-size: 0.9em;
+    }
+    #tbl_candidates, #tbl_cics, #tbl_educ, #tbl_bsba, #tbl_bssw, #tbl_crim  {
+      font-size: 0.94em;
+    }
+  }
