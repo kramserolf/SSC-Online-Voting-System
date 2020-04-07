@@ -48,15 +48,16 @@
       ?>
       <!-- content title -->
       <div class="container">
-        <div class="d-flex text-black pt-3">
+        <div class="d-flex text-black pt-3 pb-2">
           <div class="w-100">
             <h4>Social Welfare and Tourism Management</h4>
           </div>
-          <div class="p-2 flex-shrink-0">
+          <div class="flex-shrink-0">
             <a href="../modals/add_candidate.php" target="_black"><button class="btn btn-primary btn-sm"><i class="fa fa-user-plus mr-1"></i>Add Student</button></a>
           </div>
         </div>
         <!-- cics table -->
+        <div class="table-responsive-sm">
         <table class="table table-bordered table-hover" id="tbl_bssw">
           <thead class="thead-light text-center">
             <tr>
@@ -64,7 +65,7 @@
               <th>Name</th>
               <th style="width: 120px;">Department</th>
               <th style="width: 55px;">Status</th>
-              <th style="width: 55px;">Action</td>
+              <th style="width: 55px;">Action</th>
             </tr>
           </thead>
           <?php  
@@ -85,6 +86,7 @@
               </tr>
             <?php include '../function/update_student.php'; } ?>
         </table>
+        </div>
       </div>
     </div>
     <!-- /#page-content-wrapper -->

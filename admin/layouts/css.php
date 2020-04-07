@@ -91,6 +91,15 @@
 	  #wrapper.toggled #sidebar-wrapper {
 	    margin-left: 0;
 	  }
+	  .d-flex h4 {
+	  	font-size: 1.3em;
+	  }
+	  .d-flex a {
+	  	font-size: 0.8em;
+	  }
+	  #tbl_candidates, #tbl_cics, #tbl_educ, #tbl_bsba, #tbl_bssw, #tbl_crim  {
+	  	font-size: 0.9em;
+	  }
 	}
 
 </style>

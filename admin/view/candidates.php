@@ -42,15 +42,15 @@
       <!-- add candidate modal -->
       <?php include('../modals/addCandidateModal.php'); ?>
       <div class="container">
-        <div class="d-flex text-black pt-3">
+        <div class="d-flex text-black pt-3 pb-2">
           <div class="w-100">
             <h4>Candidates</h4>
           </div>
-          <div class="p-2 flex-shrink-0">
+          <div class="flex-shrink-0">
             <a href="#addModal" data-toggle="modal" class="btn btn-primary btn-sm"><i class="fa fa-user-plus mr-1"></i>Add Candidate</a>
           </div>
         </div>
-        <div class="table-responsive">
+        <div class="table-responsive-sm">
            <table class="table table-hover table-bordered" id="tbl_candidates">
               <thead class="thead-light text-center">
                 <tr>

@@ -40,13 +40,13 @@
 		?>
 		
 		<div class="pb-md-2 text-center">
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#castvote">Cast Vote</button>
+			<button type="button" class="btn btn-primary mb-4" data-toggle="modal" data-target="#castvote">Cast Vote</button>
 		</div>
 
 		<!-- modal for confirmation -->
 		<!-- Modal -->
 		<div class="modal fade" id="castvote" tabindex="-1" role="dialog" aria-labelledby="castvoteLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <h6 class="modal-title" id="castvoteLableCenter">Confirmation</h6>

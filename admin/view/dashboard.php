@@ -59,12 +59,14 @@
       ?>
       <div class="container-fluid">
         <!-- dashboard heading -->
-        <div class="d-sm-flex align-items-center justify-content-between mb-4">
-          <h1 class="h3 mb-0 mt-2">
-            Dashboard
-          </h1>
-          <button class="btn btn-info btn-sm mb-0 mt-3"><i class="fa fa-print mr-1"></i>Print</button>
+      <div class="d-flex text-black pt-3 pb-4">
+        <div class="w-100">
+          <h3>Dashboard</h3>
         </div>
+        <div class="flex-shrink-0">
+          <a href="#" class="btn btn-info btn-sm"><i class="fa fa-print mr-1"></i>Print</a>
+        </div>
+      </div>
         <!-- dashboard content -->
         <div class="row">
           <!-- candidates -->
