@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="shortcut icon" type="text/css" href="../../favicon.ico">
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<!-- bootstrap css -->

@@ -8,6 +8,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="text/css" href="favicon.ico">
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<!-- bootstrap css -->
@@ -27,9 +28,12 @@
 						<div class="card-body">
 							<div class="form-group">
 								<label>ID Number:</label>
-								<input type="text" name="id_number" class="form-control" placeholder="Enter your Student ID Number" required>
+								<input type="text" name="id_number" class="form-control" id="id_num" placeholder="Enter your Student ID Number" required>
 							</div>
-							<button type="submit" name="submit" value="Login" class="btn btn-primary"><i class="fa fa-unlock mr-1"></i>Login</button>
+							<button type="submit" name="submit" value="Login" id="formsubmitbutton" class="btn btn-primary" onclick="ButtonClicked()"><i class="fa fa-unlock mr-1"></i>Login</button>
+							<span id="buttonreplacement" style="margin-left: 14px;display:none;">
+							<img src="//www.willmaster.com/images/preload.gif" alt="loading...">
+							</span>
 						</div>
 					</div>
 				</form>
@@ -42,6 +46,27 @@
 <script src="student/assets/js/jquery.min.js" type="text/javascript"></script>
 <!-- bootstrap 4 -->
 <script src="student/assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function ButtonClicked()
+{
+   document.getElementById("formsubmitbutton").style.display = "none"; // to undisplay
+   document.getElementById("buttonreplacement").style.display = ""; // to display
+   return true;
+}
+var FirstLoading = true;
+function RestoreSubmitButton()
+{
+   if( FirstLoading )
+   {
+      FirstLoading = false;
+      return;
+   }
+   document.getElementById("formsubmitbutton").style.display = ""; // to display
+   document.getElementById("buttonreplacement").style.display = "none"; // to undisplay
+}
+// To disable restoring submit button, disable or delete next line.
+// document.onfocus = RestoreSubmitButton;
+</script>
 
 </body>
 </html>

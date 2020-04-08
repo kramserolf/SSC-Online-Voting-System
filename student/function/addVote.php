@@ -17,7 +17,7 @@
 		$rel = $_SESSION['rel'];
 		$socio = $_SESSION['socio'];
 		$sports = $_SESSION['sports'];
-		$user = $_SESSION['id_num'];
+		$user = $_SESSION['id_number'];
 						// insert logs
 			$insertlogs = mysqli_query($conn, "INSERT INTO votes (candidate_id, student_id, created_at) VALUES 
 				('$pres', '$user', now()),
@@ -35,7 +35,7 @@
 				") or die(mysqli_error($insertlogs));
 
 				// update the status of Active to Voted
-				$update = mysqli_query($conn, "UPDATE students SET vote_status = 'Voted' WHERE id ='$user' ");
+				$update = mysqli_query($conn, "UPDATE students SET vote_status = 'Voted' WHERE id_number ='$user' ");
 
 				if ($update == true) {
 					header('location: logout.php');
