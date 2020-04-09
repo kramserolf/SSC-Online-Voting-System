@@ -1,15 +1,14 @@
 <!-- edit modal -->
-<!-- Modal -->
 <div class="modal fade" id="editModal<?php echo $row['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="edit3Label" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
     <div class="modal-content">
+      <form method="post" action="../function/update_candidate.php" enctype="multipart/form-data">
       <div class="modal-header">
-        <h5 class="modal-title" id="edit3Label">Update Candidate</h5>
+        <h6 class="modal-title" id="edit3Label">Update Candidate</h6>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-        <form method="post" action="../function/update_candidate.php" enctype="multipart/form-data">
           <div class="modal-body">
             <input type="hidden" name="update_id" value="<?php echo $row['id'] ?>">
             <div class="form-group">

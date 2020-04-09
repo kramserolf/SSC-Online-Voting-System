@@ -53,6 +53,15 @@ $(document).ready(function(){
 			$(".bus").removeAttr("disabled");
 		}
 	});
+		// P.R.O
+	$(".pro").on("change", function(){
+		if ($(".pro:checked").length ==1) {
+			$(".pro").attr("disabled", "disabled");
+			$(".pro:checked").removeAttr("disabled");
+		} else {
+			$(".pro").removeAttr("disabled");
+		}
+	});
 	// sgt male
 	$(".sgt_male").on("change", function(){
 		if ($(".sgt_male:checked").length ==1) {

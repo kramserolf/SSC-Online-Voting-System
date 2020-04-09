@@ -4,6 +4,7 @@
 	include 'student-login.php';
 	if (!isset($_SESSION['id_number'])) {
 		header('location: ../');
+		exit();
 	}
 ?>
 <!DOCTYPE html>
@@ -66,7 +67,7 @@
 		      	<button type="button" class="btn btn-secondary" data-dismiss="modal" id="formsubmitcancel">Cancel</button>
 		      </div>
 		      	<div id="buttonreplacement" style="display:none;" class="text-center">
-					<span class="mr-2 text-center">Your vote is being processed...<br></span><img src="//www.willmaster.com/images/preload.gif" alt="loading..." style="width: 30px; height: auto; padding-bottom: 22px;">
+					<span class="mr-2 text-center">Your vote is being processed...<br></span><img src="assets/loader.gif" alt="loading..." style="width: 30px; height: auto; padding-bottom: 22px;">
 		        </div>
 		    </div>
 		  </div>

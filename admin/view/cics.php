@@ -32,7 +32,7 @@
         <div>
           <a href="#" class="list-group-item list-group-item-action" data-toggle="dropdown" ><i class="fa fa-cog"></i>Settings</a>
           <div class="dropdown-menu dropdown-menu-right">
-            <a href="#" class="dropdown-item">Enable/Disable Voting</a>
+            <a href="#enable" data-toggle="modal" class="dropdown-item">Enable/Disable Voting</a>
             <a href="#" class="dropdown-item">Backup/Restore</a>
             <a href="#about" data-toggle="modal" class="dropdown-item">About</a>
           </div>
@@ -40,6 +40,7 @@
       </div>
       <?php  
         include('../layouts/about-modal.php');
+        include('../layouts/enable-disable.php');
       ?>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -57,7 +58,7 @@
       			<h4>College of Information and Computing Science</h4>
       		</div>
       		<div class="flex-shrink-0">
-      			<a href="../modals/add_candidate.php" target="_black"><button class="btn btn-primary btn-sm"><i class="fa fa-user-plus mr-1"></i>Add Student</button></a>
+      			 <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#addModal"><i class="fa fa-user-plus mr-1"></i>Add Student</button>
       		</div>
       	</div>
         <!-- cics table -->
@@ -94,7 +95,10 @@
       </div>
     </div>
     <!-- /#page-content-wrapper -->
-
+    <!-- add student modal -->
+    <?php  
+      include '../modals/addStudentModal.php';
+    ?>
   </div>
   <!-- /#wrapper -->
   <?php  

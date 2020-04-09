@@ -38,7 +38,9 @@
 				$update = mysqli_query($conn, "UPDATE students SET vote_status = 'Voted' WHERE id_number ='$user' ");
 
 				if ($update == true) {
-					header('location: logout.php');
+					echo '
+						<script>location.replace("logout.php")</script>
+					';	
 			}
 		}
 	}
