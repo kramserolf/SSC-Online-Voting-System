@@ -19,7 +19,7 @@
 			    <h4>Canvassing</h4>
 			  </div>
 			  <div class="flex-shrink-0">
-			    <a href="#" class="btn btn-info btn-sm"><i class="fa fa-print mr-1"></i>Show winners</a>
+			    <a href="winners.php" target="_blank" class="btn btn-info btn-sm"><i class="fa fa-print mr-1"></i>Show winners</a>
 			  </div>
 			</div>
 			<div class="row">

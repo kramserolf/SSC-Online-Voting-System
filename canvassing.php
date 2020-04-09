@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="refresh" content="120"> 
+	<meta http-equiv="refresh" content="60"> 
 	<link rel="shortcut icon" type="text/css" href="favicon.ico">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -270,7 +270,7 @@
 					</table>
 				</div>
 			</div> <!-- end row -->
-			<p class="blockquote-footer text-right">This page is resfreshing every 2 mins.</p>
+			<p class="blockquote-footer text-right">This page is refreshed every minute.</p>
 		</div>
 	</div>
 
