@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../student/assets/css/style.css">
 	<title>Web-Based SSC Voting</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
 		<div class="row justify-content-center">
 			<div class="col-md-5">
 				<form method="POST">
-					<div class="card mt-4">
+					<div class="card mt-5 bg-transparent border-white">
 						<div class="card-header">
 							Login as Administrator <i class="fa fa-lock ml-1"></i>
 						</div>
@@ -39,7 +40,7 @@
 								</div>
 							</div>
 							
-							<button type="submit" name="submit" value="Login" class="btn btn-primary btn"id="formsubmitbutton" onclick="ButtonClicked()"><i class="fa fa-unlock mr-1"></i>Login</button>
+							<button type="submit" name="submit" value="Login" class="btn btn-primary"id="formsubmitbutton" onclick="ButtonClicked()"><i class="fa fa-unlock mr-1"></i>Login</button>
 							<span id=buttonreplacement style="margin-left: 14px;display:none;">
 							<img src="//www.willmaster.com/images/preload.gif" alt=loading...>
 							</span>
